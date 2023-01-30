@@ -1,0 +1,35 @@
+.tabs {
+  background: linear-gradient(#202327, #202327) padding-box,
+    linear-gradient(90deg, #00dbde 0%, #fc00ff 100%) border-box;
+  border-radius: 25px;
+  border: 4px solid transparent;
+}
+.tabs {
+  background-color: var(--dark);
+  width: fit-content;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.171), 0 1px 2px 0 rgba(0, 0, 0, 0.139);
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+@media only screen and (max-width: 600px) {
+  .tabs {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+}
+
+.leg {
+  color: #6d7ded;
+  background-color: #202327;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}

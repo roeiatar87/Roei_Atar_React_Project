@@ -1,0 +1,21 @@
+export const messages = {
+  required2fields: "The email and password fields are mandatory",
+  required3fields: "The email, password and name fields are mandatory",
+  requiredcardDet: "All details must be entered, to create a business card",
+  successfullyconnected: "You have successfully connected",
+  successfullyReg: "You have successfully registered",
+  successfullystep: "You have successfully completed the registration step",
+  signinfail: "Invalid username or password",
+  signout: "You have successfully logged out",
+  returntohome: "Returning",
+  existingUseralert: "User already exists in the system",
+  cardRemoving: "Are you sure you want to remove this Card ?",
+  cancelRegistration: "Are you sure you want to cancel the registration ?",
+  errorToBigInput: "The name is too long",
+  errorToShortInput: "The name is too short",
+  errorToBigPass: "The Password is too long",
+  errorToShortPass: "The Password is too short",
+  errorMatchingPass: "The passwords do not match",
+  errorForPassword:
+    "The password must be 6 to 8 characters long and at least one uppercase letter, lowercase letter and a number",
+};
